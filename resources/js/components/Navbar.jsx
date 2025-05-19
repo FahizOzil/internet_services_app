@@ -54,10 +54,7 @@ export default function Navbar() {
           <div className="md:hidden mt-3 pt-2 pb-4 border-t border-blue-400">
             <div className="flex flex-col space-y-3">
               <a href="#features" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Features</a>
-              <a href="#internet" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Internet</a>
-              <a href="#tv" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">TV Packages</a>
-              <a href="#bundles" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Bundles</a>
-              <a href="#promos" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Promotions</a>
+              <a href="#partners" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Partners</a>
               <a href="#contact" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Contact</a>
               <a href="#signup" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">Get Started</a>
             </div>

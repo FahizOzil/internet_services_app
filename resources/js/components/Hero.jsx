@@ -21,10 +21,10 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <a
-                href="#plans"
+                href="#partners"
                 className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition duration-300 shadow-lg transform hover:-translate-y-1"
               >
-                View Plans
+                Our Partners
               </a>
               <a
                 href="#contact"
@@ -63,9 +63,10 @@ export default function Hero() {
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 shadow-2xl">
                 <div className="aspect-video relative overflow-hidden rounded-lg">
                   <div className="absolute inset-0 flex items-center justify-center bg-blue-800/30">
-                    <svg className="h-24 w-24 text-white opacity-70" fill="currentColor" viewBox="0 0 20 20">
+                    {/* <svg className="h-24 w-24 text-white opacity-70" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M10 0a10 10 0 1010 10A10.011 10.011 0 0010 0zm3.5 10.7l-5 3A1 1 0 017 13V7a1 1 0 011.5-.8l5 3a1 1 0 010 1.6z" />
-                    </svg>
+                    </svg> */}
+                    <img src="/images/hero-image.jpg" alt="Hero Image" className="w-full h-full object-cover" />
                   </div>
                 </div>
 
