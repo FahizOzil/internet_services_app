@@ -1,0 +1,69 @@
+import React, { useState } from 'react';
+
+export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <nav className="bg-gradient-to-r from-blue-700 to-blue-500 text-white shadow-lg sticky top-0 z-50">
+      <div className="container mx-auto px-4 py-3">
+        <div className="flex justify-between items-center">
+          {/* Logo */}
+          <div className="flex items-center space-x-2">
+            <svg className="h-8 w-8 text-blue-200" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M5.5 2a3.5 3.5 0 101.665 6.58L8.585 10l-1.42 1.42a3.5 3.5 0 101.414 1.414L10 11.414l1.42 1.42a3.5 3.5 0 101.414-1.414L11.414 10l1.42-1.42A3.5 3.5 0 1011.25 7.16L10 8.585l-1.42-1.42A3.5 3.5 0 005.5 2zM4 5.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm9-1.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" clipRule="evenodd" />
+            </svg>
+            <h1 className="text-2xl font-bold tracking-tight">ConnectPro</h1>
+          </div>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex space-x-8">
+            <a href="#features" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Features</a>
+            <a href="#internet" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Internet</a>
+            <a href="#tv" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">TV Packages</a>
+            <a href="#bundles" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Bundles</a>
+            <a href="#promos" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Promotions</a>
+            <a href="#contact" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Contact</a>
+          </div>
+
+          {/* CTA Button */}
+          <div className="hidden md:block">
+            <a href="#signup" className="bg-white text-blue-600 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-50 transition duration-300">Get Started</a>
+          </div>
+
+          {/* Mobile menu button */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="text-white focus:outline-none"
+            >
+              {isMenuOpen ? (
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="md:hidden mt-3 pt-2 pb-4 border-t border-blue-400">
+            <div className="flex flex-col space-y-3">
+              <a href="#features" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Features</a>
+              <a href="#internet" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Internet</a>
+              <a href="#tv" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">TV Packages</a>
+              <a href="#bundles" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Bundles</a>
+              <a href="#promos" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Promotions</a>
+              <a href="#contact" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Contact</a>
+              <a href="#signup" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">Get Started</a>
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+}
