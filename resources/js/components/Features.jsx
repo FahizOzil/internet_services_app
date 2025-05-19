@@ -92,14 +92,6 @@ export default function Features() {
                 <h4 className="text-xl font-bold mb-2 text-gray-900">{feature.title}</h4>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
-              {/* <div className="px-8 py-4 bg-gray-50 border-t">
-                <a href="#" className="text-blue-600 font-medium flex items-center hover:text-blue-800 transition-colors">
-                  Learn more
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div> */}
             </div>
           ))}
         </div>
