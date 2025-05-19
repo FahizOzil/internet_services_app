@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import Plans from './components/OurPartners';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import OurPartners from './components/OurPartners';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      <Plans />
+      <OurPartners/>
       <ContactForm />
       <Footer />
     </>
