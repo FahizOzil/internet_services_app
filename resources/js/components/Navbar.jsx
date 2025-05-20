@@ -9,10 +9,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <svg className="h-8 w-8 text-blue-200" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M5.5 2a3.5 3.5 0 101.665 6.58L8.585 10l-1.42 1.42a3.5 3.5 0 101.414 1.414L10 11.414l1.42 1.42a3.5 3.5 0 101.414-1.414L11.414 10l1.42-1.42A3.5 3.5 0 1011.25 7.16L10 8.585l-1.42-1.42A3.5 3.5 0 005.5 2zM4 5.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm9-1.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" clipRule="evenodd" />
-            </svg>
-            <h1 className="text-2xl font-bold tracking-tight">ConnectPro</h1>
+          <img className="w-[140px] h-[55px]" src="/images/logo-2.png" alt="logo" />
           </div>
 
           {/* Desktop Navigation */}
@@ -28,7 +25,7 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a href="#signup" className="bg-white text-blue-600 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-50 transition duration-300">Get Started</a>
+            <a href="tel:+1234567890" className="bg-white text-blue-600 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-50 transition duration-300">tel:+1234567890</a>
           </div>
 
           {/* Mobile menu button */}
@@ -57,7 +54,7 @@ export default function Navbar() {
               <a href="#features" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Features</a>
               <a href="#partners" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Partners</a>
               <a href="#contact" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Contact</a>
-              <a href="#signup" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">+1 (218) 756-6671</a>
+              <a href="tel:+1234567890" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">+1 (218) 756-6671</a>
             </div>
           </div>
         )}
