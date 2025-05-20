@@ -14,18 +14,11 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black opacity-30"></div>
       </div>
 
-      {/* Background pattern can be kept for additional visual interest */}
-      {/* <div className="absolute inset-0 opacity-10">
-        <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-blue-400"></div>
-        <div className="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-blue-300"></div>
-        <div className="absolute top-1/2 left-1/3 w-64 h-64 rounded-full bg-blue-200"></div>
-      </div> */}
-
       <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left md:pr-12 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Elevate Your <span className="text-blue-200">Digital Experience</span>
+              Stream, Surf, and  <span className="text-blue-200">Connect Like Never Before</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 text-blue-100 max-w-lg mx-auto md:mx-0">
               Blazing-fast internet speeds, crystal-clear cable TV, and exclusive bundle deals designed for modern living.

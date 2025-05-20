@@ -18,7 +18,7 @@ export default function About() {
           {/* Left Column - Text Content */}
           <div className="md:w-1/2 space-y-6">
             <div className="inline-block">
-              <span className="bg-blue-100 text-blue-700 text-sm font-semibold px-4 py-1 rounded-full">About ConnectPro</span>
+              <span className="bg-blue-100 text-blue-700 text-sm font-semibold px-4 py-1 rounded-full">About Internet & Cable Deals</span>
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
@@ -27,7 +27,7 @@ export default function About() {
 
             <div className="space-y-4">
               <p className="text-gray-600 text-lg">
-                At ConnectPro, we believe that reliable connectivity is essential for modern living. Our mission is to provide high-quality internet and entertainment solutions that keep you connected to what matters most.
+                At Internet & Cable Deals, we believe that reliable connectivity is essential for modern living. Our mission is to provide high-quality internet and entertainment solutions that keep you connected to what matters most.
               </p>
 
               <p className="text-gray-600 text-lg">
@@ -121,7 +121,7 @@ export default function About() {
                 {/* You would replace this with your actual image */}
                 <img
                   src="/images/Global-TV-Service.jpg"
-                  alt="ConnectPro service technician installing fiber optic cable"
+                  alt="Internet & Cable Deals service technician installing fiber optic cable"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
