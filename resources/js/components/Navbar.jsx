@@ -17,11 +17,12 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
+            <a href="#" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Home</a>
             <a href="#features" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Features</a>
-            <a href="#internet" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Internet</a>
-            <a href="#tv" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">TV Packages</a>
-            <a href="#bundles" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Bundles</a>
-            <a href="#promos" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Promotions</a>
+            <a href="#partners" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Our Partners</a>
+            <a href="#about" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">About</a>
+            {/* <a href="#bundles" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Bundles</a>
+            <a href="#promos" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Promotions</a> */}
             <a href="#contact" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Contact</a>
           </div>
 
@@ -56,7 +57,7 @@ export default function Navbar() {
               <a href="#features" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Features</a>
               <a href="#partners" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Partners</a>
               <a href="#contact" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Contact</a>
-              <a href="#signup" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">Get Started</a>
+              <a href="#signup" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">+1 (218) 756-6671</a>
             </div>
           </div>
         )}
