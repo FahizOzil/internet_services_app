@@ -21,7 +21,7 @@ export default function About() {
               <span className="bg-blue-100 text-blue-700 text-sm font-semibold px-4 py-1 rounded-full">About Internet & Cable Deals</span>
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight" style={{ fontFamily: 'Cinzel, serif' }}>
               Connecting Homes and Businesses Since 2010
             </h2>
 
@@ -42,7 +42,7 @@ export default function About() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-800">Lightning Fast</h3>
+                    <h3 className="font-semibold text-gray-800 ">Lightning Fast</h3>
                     <p className="text-gray-600 text-sm">Speeds up to 1Gbps</p>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function About() {
 
               <button
                 onClick={scrollToContact}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300 transform hover:-translate-y-1 inline-flex items-center"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300 transform hover:-translate-y-1 inline-flex items-center" style={{ fontFamily: 'Cinzel, serif' }}
               >
                 Get Started
                 <svg className="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

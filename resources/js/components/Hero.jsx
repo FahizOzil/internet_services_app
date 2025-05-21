@@ -17,10 +17,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left md:pr-12 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-cinzel" style={{ fontFamily: 'Cinzel, serif' }}>
               Stream, Surf, and  <span className="text-blue-200">Connect Like Never Before</span>
             </h1>
-            <p className="text-lg md:text-xl mb-8 text-blue-100 max-w-lg mx-auto md:mx-0">
+            <p className="text-lg md:text-xl mb-8 text-blue-100 max-w-lg mx-auto md:mx-0" style={{ fontFamily: 'Cinzel, serif' }}>
               Blazing-fast internet speeds, crystal-clear cable TV, and exclusive bundle deals designed for modern living.
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
@@ -57,35 +57,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
-          {/* Hero image */}
-          {/* <div className="md:w-1/2">
-            <div className="relative">
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 shadow-2xl">
-                <div className="aspect-video relative overflow-hidden rounded-lg">
-                  <div className="absolute inset-0 flex items-center justify-center bg-blue-800/30">
-                    <img src="/images/hero-image.jpg" alt="Hero Image" className="w-full h-full object-cover" />
-                  </div>
-                </div>
-
-
-                <div className="grid grid-cols-3 gap-2 mt-4">
-                  <div className="bg-white/20 rounded-lg p-3 text-center">
-                    <div className="font-bold">Fiber</div>
-                    <div className="text-xs">1 Gbps</div>
-                  </div>
-                  <div className="bg-white/20 rounded-lg p-3 text-center">
-                    <div className="font-bold">Channels</div>
-                    <div className="text-xs">200+</div>
-                  </div>
-                  <div className="bg-white/20 rounded-lg p-3 text-center">
-                    <div className="font-bold">Streaming</div>
-                    <div className="text-xs">4K HDR</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

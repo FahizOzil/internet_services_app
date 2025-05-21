@@ -69,7 +69,7 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-sm font-bold text-blue-600 uppercase tracking-wider mb-2">Our Advantages</h2>
-          <h3 className="text-4xl font-bold mb-4 text-gray-900">Why Thousands Choose Internet & Cable Deals</h3>
+          <h3 className="text-4xl font-bold mb-4 text-gray-900 font-cinzel" style={{ fontFamily: 'Cinzel, serif' }}>Why Thousands Choose Internet & Cable Deals</h3>
           <p className="text-lg text-gray-600">Experience the difference with our cutting-edge technology and customer-first approach.</p>
         </div>
 

@@ -46,7 +46,7 @@ export default function ContactForm() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-sm font-bold text-blue-600 uppercase tracking-wider mb-2">Get In Touch</h2>
-          <h3 className="text-4xl font-bold mb-4 text-gray-900">We're Here To Help</h3>
+          <h3 className="text-4xl font-bold mb-4 text-gray-900" style={{ fontFamily: 'Cinzel, serif' }}>We're Here To Help</h3>
           <p className="text-lg text-gray-600">Have questions or need assistance? Our team of experts is just a message away.</p>
         </div>
 
@@ -184,7 +184,7 @@ export default function ContactForm() {
 
         {/* FAQ Section */}
         <div className="mt-16 max-w-3xl mx-auto">
-          <h4 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h4>
+          <h4 className="text-2xl font-bold text-center mb-8" style={{ fontFamily: 'Cinzel, serif' }}>Frequently Asked Questions</h4>
 
           <div className="space-y-4">
             <div className="bg-white p-6 rounded-lg shadow">

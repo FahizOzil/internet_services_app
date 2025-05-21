@@ -4,16 +4,17 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-gradient-to-r from-blue-700 to-blue-500 text-white">
+        <footer className="bg-gradient-to-r from-blue-400 to-blue-700 text-white">
             <div className="container mx-auto px-4 py-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Company Info */}
                     <div className="mb-6 md:mb-0">
                         <div className="flex items-center space-x-2 mb-4">
-                            <img className="w-[220px] h-[90px]" src="/images/logo-2.png" alt="logo" />
+                            <img className="w-[250px] h-[140px]" src="/images/logo-1.png" alt="logo" />
                         </div>
                         <p className="text-blue-100 mb-4">
-                            Providing premium internet and TV services for homes and businesses since 2015.
+                            Providing premium internet and TV services <br />
+                             for homes and businesses since 2015.
                         </p>
                     </div>
 

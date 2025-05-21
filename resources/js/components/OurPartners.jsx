@@ -43,7 +43,7 @@ export default function OurPartners() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-sm font-bold text-blue-600 uppercase tracking-wider mb-2">Trusted Collaboration</h2>
-          <h3 className="text-4xl font-bold mb-4 text-gray-900">Our Partners</h3>
+          <h3 className="text-4xl font-bold mb-4 text-gray-900" style={{ fontFamily: 'Cinzel, serif' }}>Our Partners</h3>
           <p className="text-lg text-gray-600">
             We work with industry leaders to provide you with the best connectivity solutions and services.
           </p>
@@ -63,7 +63,7 @@ export default function OurPartners() {
                   <img
                     src="/images/earthlink-logo.jpg"
                     alt="EarthLink logo"
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain "
                   />
                 )}
                 {partner.id === 'partner2' && (
