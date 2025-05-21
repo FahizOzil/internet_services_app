@@ -27,6 +27,8 @@ class ContactController extends Controller
             'consent' => 'required|boolean'
         ]);
 
+
+
         try {
             // Store contact inquiry in database (optional but recommended)
             $inquiry = ContactInquiry::create([

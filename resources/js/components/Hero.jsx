@@ -37,8 +37,8 @@ export default function Hero() {
                 Contact Us
               </a>
             </div>
-            <a href="tel:+1234567890" className="mt-4 inline-block bg-blue-600 text-white font-semibold py-3 px-10 rounded hover:bg-blue-700">
-               Call Now: +1 (234) 567-890
+            <a href="tel:+5123872951" className="mt-4 inline-block bg-blue-600 text-white font-semibold py-3 px-10 rounded hover:bg-blue-700">
+               Call Now: +5123872951
             </a>
 
             {/* Trust indicators */}

@@ -27,7 +27,7 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a href="tel:+1234567890" className="bg-white text-blue-600 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-50 transition duration-300">Call Now: +1(234)567890</a>
+            <a href="tel:5123872951" className="bg-white text-blue-600 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-50 transition duration-300">Call Now: +5123872951</a>
           </div>
 
           {/* Mobile menu button */}
@@ -56,7 +56,7 @@ export default function Navbar() {
               <a href="#features" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Features</a>
               <a href="#partners" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Partners</a>
               <a href="#contact" className="font-medium hover:bg-blue-600 px-3 py-2 rounded">Contact</a>
-              <a href="tel:+1234567890" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">+1 (218) 756-6671</a>
+              <a href="tel:5123872951" className="bg-white text-blue-600 font-semibold px-3 py-2 rounded-lg shadow text-center">5123872951</a>
             </div>
           </div>
         )}
