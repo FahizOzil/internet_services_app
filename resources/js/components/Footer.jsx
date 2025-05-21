@@ -12,21 +12,17 @@ export default function Footer() {
                         <div className="flex items-center space-x-2 mb-4">
                             <img className="w-[250px] h-[140px]" src="/images/logo-1.png" alt="logo" />
                         </div>
-                        <p className="text-blue-100 mb-4">
-                            Providing premium internet and TV services <br />
-                             for homes and businesses since 2015.
-                        </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
                         <h3 className="text-lg font-semibold mb-4 text-blue-100">Quick Links</h3>
                         <ul className="space-y-2">
-                            <li><a href="#features" className="hover:text-blue-200 transition duration-300">Features</a></li>
-                            <li><a href="#internet" className="hover:text-blue-200 transition duration-300">Internet</a></li>
-                            <li><a href="#tv" className="hover:text-blue-200 transition duration-300">TV Packages</a></li>
-                            <li><a href="#bundles" className="hover:text-blue-200 transition duration-300">Bundles</a></li>
-                            <li><a href="#promos" className="hover:text-blue-200 transition duration-300">Promotions</a></li>
+                            <li><a href="#features" className="hover:text-blue-200 transition duration-300">Home</a></li>
+                            <li><a href="#about" className="hover:text-blue-200 transition duration-300">About</a></li>
+                            <li><a href="#contact" className="hover:text-blue-200 transition duration-300">Contact</a></li>
+                            <li><a href="#features" className="hover:text-blue-200 transition duration-300">Feauture</a></li>
+                            <li><a href="#partners" className="hover:text-blue-200 transition duration-300">Partners</a></li>
                         </ul>
                     </div>
 
