@@ -20,7 +20,7 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-8">
             <a href="#" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Home</a>
             <a href="#features" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Features</a>
-            <a href="#partners" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Our Partners</a>
+            {/* <a href="#partners" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Our Partners</a> */}
             <a href="#about" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">About</a>
             <a href="#contact" className="font-medium hover:text-blue-200 transition duration-300 border-b-2 border-transparent hover:border-blue-200 pb-1">Contact</a>
           </div>
